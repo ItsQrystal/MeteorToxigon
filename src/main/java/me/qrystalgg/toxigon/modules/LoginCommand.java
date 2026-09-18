@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.game.GameJoinedEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -41,7 +41,7 @@ public class LoginCommand extends Module {
     private final Timer timer = new Timer();
 
     public LoginCommand() {
-        super(MeteorExtras.CATEGORY, "LoginCommand", "Lets you send commands when joining a server");
+        super(Toxigon.CATEGORY, "LoginCommand", "Lets you send commands when joining a server");
         this.runInMainMenu = true;
     }
 

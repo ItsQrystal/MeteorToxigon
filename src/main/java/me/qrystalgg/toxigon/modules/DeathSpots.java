@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.entity.EntityAddedEvent;
 import meteordevelopment.meteorclient.events.render.Render2DEvent;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
@@ -147,7 +147,7 @@ public class DeathSpots extends Module {
     private DimensionType lastDimension;
 
     public DeathSpots() {
-        super(MeteorExtras.CATEGORY, "DeathSpots", "Displays a box where another player has died at.");
+        super(Toxigon.CATEGORY, "DeathSpots", "Displays a box where another player has died at.");
         lineColor.onChanged();
     }
 

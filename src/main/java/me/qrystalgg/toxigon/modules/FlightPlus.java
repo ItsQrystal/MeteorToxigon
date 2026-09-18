@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -13,7 +13,7 @@ import net.minecraft.util.math.Vec3d;
 public class FlightPlus extends Module {
 
     public FlightPlus() {
-        super(MeteorExtras.CATEGORY, "Flight+", "Better Meteor Flight");
+        super(Toxigon.CATEGORY, "Flight+", "Better Meteor Flight");
     }
     private final SettingGroup sgGeneral = settings.getDefaultGroup();
     private final SettingGroup sgAntiKick = settings.createGroup("Anti Kick");

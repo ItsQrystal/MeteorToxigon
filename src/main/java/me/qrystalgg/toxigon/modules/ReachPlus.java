@@ -1,8 +1,8 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
 import com.jcraft.jorbis.Block;
-import me.juusk.meteorextras.MeteorExtras;
-import me.juusk.meteorextras.utils.ModuleUtils;
+import me.qrystalgg.toxigon.Toxigon;
+import me.qrystalgg.toxigon.utils.ModuleUtils;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.DoubleSetting;
 import meteordevelopment.meteorclient.settings.Setting;
@@ -64,7 +64,7 @@ public class ReachPlus extends Module {
 
 
     public ReachPlus() {
-        super(MeteorExtras.CATEGORY, "Reach+", "Teleports to extend reach");
+        super(Toxigon.CATEGORY, "Reach+", "Teleports to extend reach");
     }
 
     @EventHandler

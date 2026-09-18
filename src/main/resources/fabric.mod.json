@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "meteorextras",
+  "id": "toxigon",
   "version": "${version}",
-  "name": "Meteor Extras",
+  "name": "Toxigon",
   "description": "Extra mods for meteor client",
   "authors": [
-    "JuusK"
+    "qrystalgg"
   ],
-  "icon": "assets/meteorextras/icon.png",
+  "icon": "assets/toxigon/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "me.juusk.meteorextras.MeteorExtras"
+      "me.qrystalgg.toxigon.Toxigon"
     ]
   },
   "mixins": [
-    "meteorextras.mixins.json"
+    "toxigon.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"

@@ -1,7 +1,7 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
-import me.juusk.meteorextras.utils.BossBarExtension;
+import me.qrystalgg.toxigon.Toxigon;
+import me.qrystalgg.toxigon.utils.BossBarExtension;
 import meteordevelopment.meteorclient.events.entity.player.ItemUseCrosshairTargetEvent;
 import meteordevelopment.meteorclient.events.render.RenderBossBarEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -70,7 +70,7 @@ public class AutoOminous extends Module {
     public int tick = 0;
 
     public AutoOminous() {
-        super(MeteorExtras.CATEGORY, "AutoOminous", "Automatically drinks Ominous Bottles.");
+        super(Toxigon.CATEGORY, "AutoOminous", "Automatically drinks Ominous Bottles.");
     }
     @Override
     public void onDeactivate() {

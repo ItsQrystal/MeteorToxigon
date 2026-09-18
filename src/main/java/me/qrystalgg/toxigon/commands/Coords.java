@@ -1,4 +1,4 @@
-package me.juusk.meteorextras.commands;
+package me.qrystalgg.toxigon.commands;
 
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import meteordevelopment.meteorclient.commands.Command;

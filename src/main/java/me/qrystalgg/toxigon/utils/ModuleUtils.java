@@ -1,4 +1,4 @@
-package me.juusk.meteorextras.utils;
+package me.qrystalgg.toxigon.utils;
 
 import meteordevelopment.meteorclient.mixininterface.IPlayerMoveC2SPacket;
 import meteordevelopment.meteorclient.utils.player.FindItemResult;

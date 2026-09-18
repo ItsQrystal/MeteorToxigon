@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.utils.ModuleUtils;
+import me.qrystalgg.toxigon.utils.ModuleUtils;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.pathing.PathManagers;

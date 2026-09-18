@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -45,7 +45,7 @@ public class AutoPause extends Module {
     public boolean paused = false;
 
     public AutoPause() {
-        super(MeteorExtras.CATEGORY, "AutoPause", "Automatically pauses and resumes modules after a certain threshold.");
+        super(Toxigon.CATEGORY, "AutoPause", "Automatically pauses and resumes modules after a certain threshold.");
     }
 
     @Override

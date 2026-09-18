@@ -1,7 +1,7 @@
-package me.juusk.meteorextras;
+package me.qrystalgg.toxigon;
 
-import me.juusk.meteorextras.commands.Coords;
-import me.juusk.meteorextras.modules.*;
+import me.qrystalgg.toxigon.commands.Coords;
+import me.qrystalgg.toxigon.modules.*;
 
 import com.mojang.logging.LogUtils;
 import meteordevelopment.meteorclient.addons.GithubRepo;
@@ -11,13 +11,13 @@ import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import org.slf4j.Logger;
 
-public class MeteorExtras extends MeteorAddon {
+public class Toxigon extends MeteorAddon {
     public static final Logger LOG = LogUtils.getLogger();
     public static final Category CATEGORY = new Category("Extras");
 
     @Override
     public void onInitialize() {
-        LOG.info("Initializing Meteor Extras");
+        LOG.info("Initializing Toxigon");
 
         // Modules
         Modules.get().add(new InfAura());
@@ -46,11 +46,11 @@ public class MeteorExtras extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "me.juusk.meteorextras";
+        return "me.qrystalgg.toxigon";
     }
 
     @Override
     public GithubRepo getRepo() {
-        return new GithubRepo("JuusK", "MeteorExtras");
+        return new GithubRepo("qrystalgg", "Toxigon");
     }
 }

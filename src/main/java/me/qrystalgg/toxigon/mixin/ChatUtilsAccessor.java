@@ -1,4 +1,4 @@
-package me.juusk.meteorextras.mixin;
+package me.qrystalgg.toxigon.mixin;
 
 import meteordevelopment.meteorclient.utils.player.ChatUtils;
 import net.minecraft.text.Text;

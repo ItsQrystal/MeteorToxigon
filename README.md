@@ -1,11 +1,15 @@
 
-![Logo](/src/main/resources/assets/meteorextras/icon.png)
+![Logo](/src/main/resources/assets/toxigon/icon.png)
 
 
 
-# Meteor Extras
+# Toxigon
 
-Meteor addon that adds extra features primarily for Anarchy servers without anti-cheats.
+Meteor addon that adds extra features primarily for Toxigon and servers without anti-cheats. 
+
+Fork of MeteorExtras: https://github.com/JuusK/MeteorExtras
+
+
 
 
 ## How to use
@@ -17,7 +21,16 @@ Meteor addon that adds extra features primarily for Anarchy servers without anti
 
 ## Features
 
-### Modules
+### Original Modules
+
+- None rn
+
+## Modules changed 
+
+- None rn
+
+## Original Meteor Extras Modules
+
 - AutoDrink (Automatically drinks potions)
 - AutoOminous (Automatically drinks Ominous Potions)
 - Flight+ (Flight but better)
@@ -29,23 +42,3 @@ Meteor addon that adds extra features primarily for Anarchy servers without anti
 - XPAura (Teleports to XP Orbs)
 - TooManyPackets (Cancels packets when too many)
 - Auto Farm+
-
-## Contributing
-
-Contributions are always welcome!
-
-To contribute, follow the steps below:
-
-### Step 1
-
-Clone the repository:
-
-``git clone https://github.com/JuusK/MeteorExtras``
-
-### Step 2
-
-Add or change the stuff you want to be changed.
-
-### Step 3
-
-Make a pull request and it will be reviewed.

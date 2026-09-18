@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.DoubleSetting;
@@ -27,7 +27,7 @@ public class TooManyPackets extends Module {
 
 
     public TooManyPackets() {
-        super(MeteorExtras.CATEGORY, "TooManyPackets", "Cancels packets to stop you from getting kicked for 'Too many packets'");
+        super(Toxigon.CATEGORY, "TooManyPackets", "Cancels packets to stop you from getting kicked for 'Too many packets'");
     }
     int packetCounter = 0;
     int tick = 0;

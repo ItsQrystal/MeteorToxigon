@@ -1,7 +1,7 @@
-package me.juusk.meteorextras.mixin;
+package me.qrystalgg.toxigon.mixin;
 
-import me.juusk.meteorextras.modules.AutoOminous;
-import me.juusk.meteorextras.utils.BossBarExtension;
+import me.qrystalgg.toxigon.modules.AutoOminous;
+import me.qrystalgg.toxigon.utils.BossBarExtension;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import meteordevelopment.meteorclient.systems.modules.render.NoRender;
 import net.minecraft.client.gui.hud.BossBarHud;

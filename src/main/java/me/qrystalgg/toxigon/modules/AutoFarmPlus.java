@@ -1,7 +1,7 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.entity.player.BreakBlockEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -163,7 +163,7 @@ public class AutoFarmPlus extends Module {
     int actions = 0;
 
     public AutoFarmPlus() {
-        super(MeteorExtras.CATEGORY, "auto-farm+", "Improvement of Meteor Rejects' Auto Farm");
+        super(Toxigon.CATEGORY, "auto-farm+", "Improvement of Meteor Rejects' Auto Farm");
     }
 
     @Override

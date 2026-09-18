@@ -1,7 +1,7 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
-import me.juusk.meteorextras.mixin.ChatUtilsAccessor;
+import me.qrystalgg.toxigon.Toxigon;
+import me.qrystalgg.toxigon.mixin.ChatUtilsAccessor;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -27,7 +27,7 @@ public class Prefix extends Module {
     private final Setting<String> prefix = sgPrefix.add(new StringSetting.Builder()
         .name("prefix")
         .description("What the prefix it should be")
-        .defaultValue("MeteorExtras")
+        .defaultValue("Toxigon")
         .build()
     );
 
@@ -55,7 +55,7 @@ public class Prefix extends Module {
 
 
     public Prefix() {
-        super(MeteorExtras.CATEGORY, "Prefix", "Changes prefix");
+        super(Toxigon.CATEGORY, "Prefix", "Changes prefix");
     }
 
     @EventHandler

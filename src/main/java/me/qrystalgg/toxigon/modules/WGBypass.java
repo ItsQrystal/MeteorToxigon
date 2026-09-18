@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.systems.modules.Category;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -11,7 +11,7 @@ import net.minecraft.util.math.Vec3d;
 
 public class WGBypass extends Module {
     public WGBypass() {
-        super(MeteorExtras.CATEGORY, "WGBypass", "Lets you move in WorldGuard protected areas (no idea if this works pls test it)");
+        super(Toxigon.CATEGORY, "WGBypass", "Lets you move in WorldGuard protected areas (no idea if this works pls test it)");
     }
 
     double hspeed = 0.0625D;

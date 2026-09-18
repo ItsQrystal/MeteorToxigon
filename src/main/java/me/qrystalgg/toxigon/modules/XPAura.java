@@ -1,7 +1,7 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
-import me.juusk.meteorextras.utils.ModuleUtils;
+import me.qrystalgg.toxigon.Toxigon;
+import me.qrystalgg.toxigon.utils.ModuleUtils;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.DoubleSetting;
@@ -51,7 +51,7 @@ public class XPAura extends Module {
     );
 
     public XPAura() {
-        super(MeteorExtras.CATEGORY, "XPAura", "Teleports to xp orbs to pick them up and then tps back");
+        super(Toxigon.CATEGORY, "XPAura", "Teleports to xp orbs to pick them up and then tps back");
     }
 
     @EventHandler(priority = EventPriority.LOW)

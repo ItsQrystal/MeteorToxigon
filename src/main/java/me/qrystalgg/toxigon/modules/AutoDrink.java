@@ -1,6 +1,6 @@
-package me.juusk.meteorextras.modules;
+package me.qrystalgg.toxigon.modules;
 
-import me.juusk.meteorextras.MeteorExtras;
+import me.qrystalgg.toxigon.Toxigon;
 import meteordevelopment.meteorclient.events.entity.player.ItemUseCrosshairTargetEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.pathing.PathManagers;
@@ -73,7 +73,7 @@ public class AutoDrink extends Module {
     private boolean wasBaritone = false;
 
     public AutoDrink() {
-        super(MeteorExtras.CATEGORY, "AutoDrink", "Automatically drinks potions.");
+        super(Toxigon.CATEGORY, "AutoDrink", "Automatically drinks potions.");
     }
 
     @Override

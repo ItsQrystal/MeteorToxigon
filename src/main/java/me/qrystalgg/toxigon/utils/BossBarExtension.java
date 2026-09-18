@@ -1,4 +1,4 @@
-package me.juusk.meteorextras.utils;
+package me.qrystalgg.toxigon.utils;
 
 import net.minecraft.text.Text;
 
